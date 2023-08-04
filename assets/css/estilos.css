@@ -7,6 +7,9 @@ body {
     padding-top: 70px;
     font-family: 'Poppins', sans-serif;
 }
+h1, h2 {
+    font-family: 'Playfair Display', serif;
+}
 .bg-menu {
     background-color: white;
 }
@@ -31,7 +34,7 @@ body {
     text-decoration: underline;
 }
 .imagen-bienvenida {
-    background-image:url('../../assets/img/bienvenida.jpeg');
+    background-image:url('../../assets/img/bienvenida.jpg');
     background-size: cover;
     background-position: center; 
 }
@@ -94,7 +97,7 @@ p {
     margin-bottom:0px;
 }
 .iconohome {
-    width: 50px;
+    height: 40px;
     margin-bottom:10px;
 }
 .mini-tarjetas .card-body {
@@ -105,14 +108,32 @@ p {
     max-width: 250px;
 }
 .home-s3 {
-    padding:100px;
     background-image:url('../../assets/img/fondo-mapa.jpg');
     background-size: cover;
     background-position: center; 
+    margin-bottom:100px;
+    padding-bottom:100px;
+}
+.home-se-1 {
+    padding:100px;
+    padding-bottom:0px;
+}
+.home-se-2 {
+    padding-left:100px;
 }
 .home-s3 h2 {
     margin-bottom:20px;
 }
 .home-s3 p {
     max-width: 500px;
+}
+
+.hoteles {
+    height: 150px;
+    margin-right: 100px;
+}
+.contenedor-hoteles {
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top:60px;
 }
