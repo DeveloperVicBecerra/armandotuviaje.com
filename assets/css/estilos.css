@@ -1,0 +1,118 @@
+.navbar-brand img {
+    width:130px;
+    margin-top: -4px;
+}
+body {
+    background-color: #F6F9FE;
+    padding-top: 70px;
+    font-family: 'Poppins', sans-serif;
+}
+.bg-menu {
+    background-color: white;
+}
+.whats {
+    width: 30px;
+    margin-right: 8px;
+    margin-top: -3px;
+}
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.telefono {
+    text-decoration: underline;
+}
+.imagen-bienvenida {
+    background-image:url('../../assets/img/bienvenida.jpeg');
+    background-size: cover;
+    background-position: center; 
+}
+.tarjeta-reserva {
+    margin-right: -150px;
+    margin-left:100px;
+    border-radius: 30px;
+}
+.sectur {
+    width:180px;
+    height: auto;
+}
+.tarjeta-reserva .form-control {
+    border-radius:30px;
+    background-color:#F7F7F8;
+    padding:12px;
+}
+::placeholder {
+    color:#707070!important;
+}
+.tarjeta-reserva .form-select {
+    border-radius:30px;
+    background-color:#F7F7F8;
+    padding:12px;
+}
+option:disabled {
+    color:#707070!important;
+}
+.boton-reserva {
+    border-radius:30px;
+    background-color: #2B4B98;
+    border-color:#2B4B98;
+}
+.home-s2 {
+    margin-top:100px;
+    margin-bottom:100px;
+}
+.titulo-home {
+    margin-top:60px;
+    margin-bottom:20px;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.subtitulo-home {
+    margin-bottom:80px;
+    font-weight: 300;
+}
+p {
+    font-weight: 300;
+}
+.parrafo-linea {
+    border-left: solid 8px #2B4B98;
+    padding-left: 20px;
+    margin-top:20px;
+}
+.home-s2 .card {
+    border-radius:30px;
+}
+.mini-tarjetas p {
+    margin-bottom:0px;
+}
+.iconohome {
+    width: 50px;
+    margin-bottom:10px;
+}
+.mini-tarjetas .card-body {
+    padding-left:1.4rem!important;
+    padding-right:1.4rem!important;
+}
+.mini-tarjetas {
+    max-width: 250px;
+}
+.home-s3 {
+    padding:100px;
+    background-image:url('../../assets/img/fondo-mapa.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+.home-s3 h2 {
+    margin-bottom:20px;
+}
+.home-s3 p {
+    max-width: 500px;
+}
