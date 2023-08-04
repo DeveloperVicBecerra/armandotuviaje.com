@@ -137,3 +137,18 @@ p {
     white-space: nowrap;
     margin-top:60px;
 }
+footer h5 {
+    margin-bottom:40px;
+}
+.elfooter {
+    background-color: #1E3C72;
+    color:white;
+}
+
+footer .text-body-secondary {
+    color:white!important; 
+}
+footer {
+    padding-top:100px;
+    padding-bottom:100px;
+}
