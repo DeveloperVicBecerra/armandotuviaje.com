@@ -37,11 +37,13 @@ h1, h2 {
     background-image:url('../../assets/img/bienvenida.jpg');
     background-size: cover;
     background-position: center; 
+    min-height: 300px;
 }
 .tarjeta-reserva {
     margin-right: -150px;
     margin-left:100px;
     border-radius: 30px;
+    min-width:780px;
 }
 .sectur {
     width:180px;
@@ -89,6 +91,7 @@ p {
     border-left: solid 8px #2B4B98;
     padding-left: 20px;
     margin-top:20px;
+    margin-bottom:40px;
 }
 .home-s2 .card {
     border-radius:30px;
@@ -151,4 +154,21 @@ footer .text-body-secondary {
 footer {
     padding-top:100px;
     padding-bottom:100px;
+}
+@media (max-width: 990px) {
+    .tarjeta-reserva {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 989px) {
+    .tarjeta-reserva {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
+@media (max-width: 767px) {
+    .tarjeta-reserva {
+        min-width:auto;
+    }
 }
